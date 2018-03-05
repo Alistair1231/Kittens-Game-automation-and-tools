@@ -2,7 +2,7 @@
 // @name         Kittens Game Automation
 // @namespace    https://github.com/Alistair1231/Kittens-Game-automation-and-tools
 // @version      0.1
-// @description  Auto craft resources when full, auto pray, auto hunt 1,2,3 and 4 next to start stand for parchment, manuscript,...
+// @description  Auto craft resources when full, auto pray, auto hunt || next to start: 1,2,3 and 4 stand for parchment, manuscript,...autocrafting the rest of the resources auto craft when > 95% full || trade button enables auto trade with zebras || export makes savegame export and copies code to clipboard || off buttons might be broken, if so just reload... || based off of https://redd.it/2eqlt5
 // @author       Alistair1231
 // @match        http*://bloodrizer.ru/games/kittens/*
 // @grant        none
