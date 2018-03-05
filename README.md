@@ -1,7 +1,7 @@
 # Kittens-Game-automation-and-tools
 - **auto pray** clicks pray when faith full
 - **auto workshop** craft resources when full
-  - autocrafting the rest of the resources auto craft when > 95% full
+  - only when > 95% full and doesn't craft all so you have always some available
 - **auto hunt** when catpower full
   - next to start: 1,2,3 and 4 stand for parchment, manuscript, compendium, blueprint
 - **auto trade** trade button enables auto trade with zebras
