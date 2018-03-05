@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Kittens
+// @name         Kittens Game Automation
 // @namespace    https://github.com/Alistair1231/Kittens-Game-automation-and-tools
 // @version      0.1
-// @description  KittensBot
+// @description  Auto craft resources when full, auto pray, auto hunt 1,2,3 and 4 next to start stand for parchment, manuscript,...
 // @author       Alistair1231
 // @match        http*://bloodrizer.ru/games/kittens/*
 // @grant        none
