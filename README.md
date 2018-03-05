@@ -7,6 +7,7 @@ export makes savegame export and copies code to clipboard
 off buttons might be broken, if so just reload... 
 
 Install from here: https://greasyfork.org/en/scripts/39218-kittens-game-automation 
+
 Tampermonkey or another userscript addon needed: http://tampermonkey.net/
 
 based off of https://redd.it/2eqlt5
