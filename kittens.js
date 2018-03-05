@@ -1,4 +1,4 @@
-var starClick =null, autoHunt=null, autoCraft=null, autoObserve=null, autoPray=null, blueprint = null, manuscript = null, compedium = null;
+var starClick =null, autoHunt=null, autoCraft=null, autoObserve=null, autoPray=null, blueprint = null, manuscript = null, compedium = null, parchment = null;
 var bot = (
     function() 
     {
