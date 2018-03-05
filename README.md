@@ -10,7 +10,7 @@
 
 off buttons might be broken, if so just reload...  
 
-Install from here: https://greasyfork.org/en/scripts/39218-kittens-game-automation  
-Tampermonkey or another userscript addon needed: http://tampermonkey.net/  
+Install from [here](https://greasyfork.org/en/scripts/39218-kittens-game-automation)  
+Tampermonkey or another userscript addon needed: [click](http://tampermonkey.net/)  
 
-based off of https://redd.it/2eqlt5  
+based off of [this Subreddit](https://redd.it/2eqlt5)  
