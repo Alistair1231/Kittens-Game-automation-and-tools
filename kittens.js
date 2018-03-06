@@ -117,10 +117,14 @@ var bot = (
                         if (curRes.value / curRes.maxValue > 0.95 &&
                             gamePage.workshop.getCraft(resources[i][1]).unlocked) 
                         {
-                            gamePage.craft(resources[i][1],15);
+                            gamePage.craft(resources[i][1],10);
+                            gamePage.craft(resources[i][1],10);
+                            gamePage.craft(resources[i][1],10);
+                            gamePage.craft(resources[i][1],10);
+                            gamePage.craft(resources[i][1],10);
                         }
                     }
-                }, 5 * 1000);
+                }, 2 * 1000);
 
                 autoPray = setInterval(function() 
                 {
