@@ -14,6 +14,12 @@ var bot = (
 				$( "<div class='exported'><span id='exportedVal'>"+text+"</span></div>" ).insertBefore("a[onclick*='bot.export()']").hide();
 				copyToClipboard("#exportedVal");
             },
+            import:function()
+            {
+            	$('#importDiv').show();
+            	$("#importData").select();
+            		
+            },
             trade:function()
             {
             	console.log('zebras:1/10');
