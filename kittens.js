@@ -1,4 +1,3 @@
-var starClick =null, autoHunt=null, autoCraft=null, autoObserve=null, autoPray=null, blueprint = null, manuscript = null, compedium = null, parchment = null;
 var bot = (
     function() 
     {
@@ -27,7 +26,7 @@ var bot = (
             		if(arguments[i]==1)
 	            		zebras=setInterval(function(){gamePage.diplomacy.tradeAll(gamePage.diplomacy.get('zebras'));},10000);	
             		if(arguments[i]==10)
-	            		zebras=clearInterval(zebras);	            	
+	            		clearInterval(zebras);	            	
             	};
 
             },
@@ -134,16 +133,9 @@ var bot = (
 
                 autoPray = setInterval(function() 
                 {
-                    var origTab = gamePage.activeTabId;
-                    var faith = gamePage.resPool.get('faith');
-
                     if (faith.value / faith.maxValue > 0.95) 
                     {
-                        gamePage.activeTabId = 'Religion';
-                        gamePage.render();
-                        $(".btnContent:contains('Praise the sun')").click();
-                        gamePage.activeTabId = origTab;
-                        gamePage.render();
+                 		this.game.religion.praise();
                     }
 
                 }, 10 * 1000);

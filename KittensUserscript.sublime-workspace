@@ -1,0 +1,1105 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mou",
+				"mouseover\t.mouseover()"
+			],
+			[
+				"type",
+				"typeof(aSome)"
+			],
+			[
+				"st",
+				"stopKitten()\tkitten.js"
+			],
+			[
+				"stop",
+				"stopKitten()\tkitten.js"
+			],
+			[
+				"sto",
+				"stopKitten()\tkitten.js"
+			],
+			[
+				"star",
+				"startKitten()\tkitten.js"
+			],
+			[
+				"conte",
+				"contents\t.contents()"
+			],
+			[
+				"getE",
+				"getElementsByClassName('aSome')"
+			],
+			[
+				"doc",
+				"document.getElementById('servers"
+			],
+			[
+				"start",
+				"function startKitten\t()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"clea",
+				"clearInterval"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"senp",
+				"SendInput"
+			],
+			[
+				"te",
+				"Text"
+			],
+			[
+				"pg",
+				"PgDn"
+			],
+			[
+				"S",
+				"Send"
+			],
+			[
+				"ca",
+				"Cancel"
+			],
+			[
+				"no",
+				"No"
+			],
+			[
+				"i",
+				"If"
+			],
+			[
+				"%",
+				"%closeY%"
+			],
+			[
+				"Awi",
+				"A_ScreenWidth"
+			],
+			[
+				"A_hei",
+				"A_ScreenHeight"
+			],
+			[
+				"mouse",
+				"MouseClick"
+			],
+			[
+				"Le",
+				"Left"
+			],
+			[
+				"Mous",
+				"MouseMove"
+			],
+			[
+				"le",
+				"Left"
+			],
+			[
+				"mous",
+				"MouseClick"
+			],
+			[
+				"Outputv",
+				"OutputVarY"
+			],
+			[
+				"OutputV",
+				"OutputVarX"
+			],
+			[
+				"Err",
+				"ErrorLevel"
+			],
+			[
+				"wi",
+				"WinActivateForce\t#WinActivateForce"
+			],
+			[
+				"WinA",
+				"WinActivate"
+			],
+			[
+				"Win",
+				"WinRestore"
+			],
+			[
+				"Ex",
+				"ExitApp\t(uuu.ahk)"
+			],
+			[
+				"exit",
+				"ExitApp"
+			],
+			[
+				"M",
+				"MsgBox"
+			],
+			[
+				"IfW",
+				"IfWinNotActive"
+			],
+			[
+				"win",
+				"WinActive()"
+			],
+			[
+				"winn",
+				"IfWinNotActive"
+			],
+			[
+				"dow",
+				"down\t(kodi.log)"
+			],
+			[
+				"ms",
+				"MsgBox"
+			],
+			[
+				"WinW",
+				"WinWaitActive"
+			],
+			[
+				"up",
+				"Up"
+			],
+			[
+				"re",
+				"Return"
+			],
+			[
+				"Mou",
+				"MouseMove"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Alistair1231/AppData/Roaming/Kodi/kodi.log",
+			"settings":
+			{
+				"buffer_size": 424324,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/!!Downloads/!3BackupHandy/!!sync/kittens",
+			"settings":
+			{
+				"buffer_size": 20936,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kittens.js",
+			"settings":
+			{
+				"buffer_size": 5759,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kittens.user.js",
+			"settings":
+			{
+				"buffer_size": 2059,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/AutoHotkey/AutoHotkey.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/AutoHotkey/AutoHotkey.sublime-build",
+					""
+				],
+				[
+					"Packages/AutoHotkey/AutoHotkey.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/AutoHotkey/AutoHotkey.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 192.0,
+		"last_filter": "comm",
+		"selected_items":
+		[
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Git: Amend Commit"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Quick Commit (repo, only already added files)"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git tag",
+				"Git: Checkout Tag"
+			],
+			[
+				"git rele",
+				"Git: Update Project Ignored Files"
+			],
+			[
+				"git t",
+				"Git: Push Tags"
+			],
+			[
+				"git ta",
+				"Git: Show Tags"
+			],
+			[
+				"githu",
+				"GitHubinator Repository"
+			],
+			[
+				"gis",
+				"Gist: Copy Gist URL"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gi",
+				"Gist: Open Gist in Browser"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"backu",
+				"AutoBackups: Open File Backup"
+			],
+			[
+				"doc",
+				"Goto Documentation"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"beau",
+				"Javascript Beautify"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"sel ja",
+				"Expand Selection to Function (JavaScript)"
+			],
+			[
+				"javas",
+				"Javascript Beautify"
+			],
+			[
+				"dom",
+				"Set Syntax: JavaScript (DOM)"
+			],
+			[
+				"ahk",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"save",
+				"Toggle AutoSave Backup: current file only"
+			],
+			[
+				"pi",
+				"AutoHotkey - Run As Piped Buffer"
+			],
+			[
+				"",
+				"Build With: AutoHotkey"
+			],
+			[
+				"pip",
+				"AutoHotkey - Run As Piped Buffer"
+			],
+			[
+				"tab",
+				"tabr: Create Tab Order"
+			],
+			[
+				"real",
+				"Select By Regex: All"
+			],
+			[
+				"goto",
+				"Goto Documentation"
+			],
+			[
+				"docum",
+				"Goto Documentation"
+			],
+			[
+				"run",
+				"AutoHotkey - Run"
+			],
+			[
+				"regex",
+				"Select By Regex: All"
+			],
+			[
+				"sele",
+				"Select By Regex: Next"
+			],
+			[
+				"packa",
+				"Package Control: Add Repository"
+			],
+			[
+				"key",
+				"AutoHotkey - Run"
+			],
+			[
+				"hotk",
+				"AutoHotkey - Run"
+			],
+			[
+				"ru",
+				"AutoHotkey - Run"
+			],
+			[
+				"hot",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"aut",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"num",
+				"Insert Nums"
+			],
+			[
+				"autohot",
+				"AutoHotkey - Compile"
+			],
+			[
+				"auto",
+				"AutoHotkey - Run"
+			],
+			[
+				"bu",
+				"Build With: AutoHotkey"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"tabrr",
+				"tabr: Create Tab Order"
+			],
+			[
+				"tabr",
+				"tabr: Create Tab Order"
+			],
+			[
+				"less",
+				"Less Tabs: Close Tabs Unrelated To Current Tab Directory"
+			],
+			[
+				"rege",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"cm",
+				"Cmd Caller: App List"
+			],
+			[
+				"hyp",
+				"Hyperlink Helper: Wrap Word / Selection as Link"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"hy",
+				"Hyperlink Helper: Wrap Word / Selection as Link"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"file",
+				"File Navigator: Open"
+			],
+			[
+				"cmd",
+				"Cmd Caller: App List"
+			],
+			[
+				"extra",
+				"TabsExtra: Close Tabs (Dismiss Unsaved)"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"new fi",
+				"ANF: New File"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"loa",
+				"SublimeREPL: Load current file"
+			],
+			[
+				"haske",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"INS",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 420.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+			"git rm --cached",
+			"git rm -cached",
+			"move_to {\"extend\": false, \"to\": \"eol\"}",
+			"select_all",
+			"sublime.log_commands(True)",
+			"``sublime.log_commands(True)``",
+			"select_all",
+			"new_file",
+			"scroll_to_eof()",
+			"scroll_to_eof",
+			"help()",
+			"enable_wrap()",
+			"help",
+			"toggle_wrap",
+			"enable_wrap",
+			"wrap"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git/kittens.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git/kittens.user.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git - Copy/kittens.js",
+		"/C/Users/Alistair1231/Documents/!!AHK/uuu.ahk",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kittenDefault.js",
+		"/C/Program Files/SublimeText 3/Data/Packages/User/Git.sublime-settings",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git/.gitattributes",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git/.git/index",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git/.git/HEAD",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git/.git/FETCH_HEAD",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git/.git/description",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/git/.git/config",
+		"/C/Program Files/SublimeText 3/Data/Packages/Git/Git.sublime-settings",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kittenDefault2.js",
+		"/C/Program Files/SublimeText 3/Data/Packages/User/Gist.sublime-settings",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!sublimeBackup/2018-03-03/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten_085348.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!sublimeBackup/2018-03-03/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten_085447.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!sublimeBackup/2018-03-03/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten_085823.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!sublimeBackup/2018-03-03/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten_090550.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!sublimeBackup/2018-03-03/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten_090416.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!sublimeBackup/2018-03-03/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten_092322.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!sublimeBackup/2018-03-03/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten_093155.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!sublimeBackup/2018-03-03/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten_092640.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/kitten.js.u",
+		"/C/Program Files/SublimeText 3/Data/Packages/Gist/Gist.sublime-settings",
+		"/C/Program Files/SublimeText 3/Data/Packages/User/AutoBackups (Windows).sublime-settings",
+		"/C/Program Files/SublimeText 3/Data/Packages/AutoBackups/AutoBackups (Windows).sublime-settings",
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/test.js",
+		"/C/Program Files/SublimeText 3/Data/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Program Files/SublimeText 3/!!license.txt",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/SavePrompt/SavePrompt.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Kodi/kodi.log",
+		"/C/Users/Alistair1231/Documents/!!tmp/js/kidtten.js",
+		"/D/!!Downloads/!3BackupHandy/!!sync/kittens",
+		"/C/Users/Alistair1231/Downloads/kittens(1).wfsim",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/auto-save/Default (Windows).sublime-keymap",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/User/goto_documentation.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/tabr/Default (Windows).sublime-keymap",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/AutoHotkey/AutoHotkey.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/User/All Autocomplete.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/GotoDocumentation/goto_documentation.sublime-settings",
+		"/C/Users/Alistair1231/Documents/autismus.txt",
+		"/C/Users/Alistair1231/Google Drive/UPLOADS/SublimeText_+3_+3143_+x64_+Portable/README.txt",
+		"/C/Users/Alistair1231/Google Drive/UPLOADS/SublimeText_+3_+3143_+x64_+Portable/LICENSE.txt",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/JumpOver/manifest.json",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/JumpOver/JumpOver.pdb",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/SaveBackup/config.json",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/PurchasableRecipes/config.json",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/NPCMapLocations/config.json",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/LookupAnything/config.json",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/FastAnimations/config.json",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/xampp/htdocs/seafile/bootstrap/bootstrap.conf",
+		"/D/seafile-server/conf/ccnet.conf",
+		"/D/seafile-server/conf/seafile.conf",
+		"/C/Users/Alistair1231/Downloads/SMAPI 2.4 installer/README.txt",
+		"/C/Users/Alistair1231/AppData/Roaming/StardewValley/deactivatedMods/ReadMe.txt",
+		"/C/Users/Alistair1231/AppData/Roaming/StardewValley/deactivatedMods/FasterRun/config.json",
+		"/D/GOG Games/Stardew Valley/Mods/MoveFasterMod/config.json",
+		"/D/GOG Games/Stardew Valley/Mods/StackToNearbyChests/config.json",
+		"/D/GOG Games/Stardew Valley/Mods/MovementMod/config.json",
+		"/D/GOG Games/Stardew Valley/Mods/RegenMod/config.json",
+		"/D/GOG Games/Stardew Valley/Mods/Automate/config.json",
+		"/D/Steam/steamapps/common/Stardew Valley/StardewModdingAPI.config.json",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/Automate/config.json",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/StackToNearbyChests/config.json",
+		"/D/Steam/steamapps/common/Stardew Valley/Mods/CJBItemSpawner/config.json",
+		"/C/Users/Alistair1231/AppData/Roaming/StardewValley/deactivatedMods/ImprovedGreenhouse/readme.txt",
+		"/D/!!Downloads/Various Files/Stardew.Valley.v.2.33/README.txt",
+		"/C/xampp/FileZillaFTP/FileZilla Server.xml",
+		"/C/xampp/FileZillaFTP/FileZillaServer.xml",
+		"/C/Users/Alistair1231/AppData/Roaming/Kodi/addons/plugin.video.fapzone/videos1.py",
+		"/C/Users/Alistair1231/Documents/!!AHK/downloadKodi.ahk",
+		"/C/Users/Alistair1231/AppData/Roaming/Kodi/kodi_stacktrace-17.6 Git_20171114-a9a7a20-20180131-012424.txt",
+		"/D/Backup/CUsersAlistair1231AppDataRoaming/Kodi/kodi.log",
+		"/C/Users/Alistair1231/Documents/download.ahk",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/!!Downloads/!3BackupHandy/!!sync/Windows.xpadderprofile",
+		"/C/Users/Alistair1231/Desktop/Pin.ahk",
+		"/C/Users/Alistair1231/Google Drive/UPLOADS/N4IgzghgbgpgajA (1).txt",
+		"/C/Users/Alistair1231/Desktop/uuu.ahk",
+		"/C/Users/Alistair1231/AppData/Roaming/Kodi/addons/plugin.video.fapzone/resources/settings.xml",
+		"/C/Users/Alistair1231/Google Drive/UPLOADS/N4IgzghgbgpgajA (7).txt",
+		"/C/Users/Alistair1231/Google Drive/UPLOADS/N4IgzghgbgpgajA.txt",
+		"/C/Users/Alistair1231/Documents/!!AHK/observe1.ahk",
+		"/C/Users/Alistair1231/Google Drive/UPLOADS/N4IgzghgbgpgajA (10).txt",
+		"/D/!!Downloads/OFFPPJAN64/Microsoft Office 2016 Pro Plus Volume License - Januar 2018 X64/Activator/ReadMe KMSpico Install.txt",
+		"/C/Portable/xpadder/Windows.xpadderprofile",
+		"/C/Windows/ShellNew/Template.ahk",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/Clickable URLs/Default (Windows).sublime-keymap",
+		"/C/Users/Alistair1231/Documents/thumb/mtn-200808a-win32/mtn_drop.cmd",
+		"/C/Users/Alistair1231/Documents/1.txt",
+		"/C/Users/Alistair1231/Documents/application.txt",
+		"/C/Portable/Video Thumbnails Maker Platinum v9/URET.nfo",
+		"/C/Portable/1.txt",
+		"/C/Users/Alistair1231/Documents/Untitled2.txt",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/Less Tabs/lessTabs.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/Zen Tabs/Default.sublime-keymap",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/Zen Tabs/ZenTabs.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/RegexExplainTip/RegexExplainTip.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/User/NewFile.py",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/NewFileAtCurrentFolder/NewFile.py",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/C/Users/Alistair1231/Documents/linux/untitled.hs",
+		"/C/Users/Alistair1231/AppData/Roaming/Sublime Text 3/Packages/Boxy Theme/Boxy Tomorrow.sublime-theme",
+		"/C/Users/Alistair1231/Downloads/[BakaBT.346667v0] Doraemon movie 28 - Nobita and the Green Giant Legend [1080p][ATTKC-Doremi][02D05F93].mkv.txt",
+		"/C/Users/Alistair1231/Documents/haskell.txt",
+		"/C/Users/Alistair1231/AppData/Local/Temp/7zO46699D9B/readme.txt",
+		"/C/Users/Alistair1231/Documents/thumb/mtn-200808a-win32/mtn_drop_fast.cmd",
+		"/D/Backup/Op3s/Read first!.txt",
+		"/D/Backup/installWin8.txt",
+		"/C/Users/Alistair1231/Downloads/igg/out.txt",
+		"/C/Users/Alistair1231/Downloads/igg/test.txt",
+		"/D/Backup/Internet Download Manager (IDM) v6.29 Build 2 [Oct 06, 2017]/Crack (IDM) v6.29 Build 2 [Oct 06, 2017]/Read Me.txt",
+		"/C/Users/Alistair1231/Documents/Curse/Minecraft/Instances/Project Ozone 2 Reloaded/config/veinminer/general.cfg",
+		"/C/Users/Alistair1231/Documents/Curse/Minecraft/Instances/Project Ozone 2 Reloaded/config/veinminer/tools-and-blocks.json",
+		"/D/!!Downloads/Warcraft 3   Frozen Throne Lan/Warcraft III + Frozen Throne/License.txt",
+		"/C/Users/Alistair1231/Documents/Curse/Minecraft/Instances/Project Ozone 2 Reloaded/options.txt",
+		"/C/Program Files (x86)/ImageWriter/README.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".*VideoPlayer.*\\:.*https?.*",
+			"set",
+			"slt",
+			"st",
+			"strict",
+			"hunt",
+			" = null",
+			"=null",
+			" =null",
+			"50",
+			".*VideoPlayer.*\\:.*https?.*",
+			"21:03:01.637 T:23584  NOTICE: VideoPlayer: Opening: http://s20.bigcdn.cc/pub/cid/5a9c4134e9532/1080.mp4",
+			".*VideoPlayer.*\\:.*https?.*",
+			"craftAll",
+			"=null",
+			" =null",
+			"write",
+			" ",
+			"autoObserve",
+			" \n",
+			"5*1000",
+			";},5*1000);",
+			"'",
+			"setInterval(function(){gamePage.craftAll(",
+			");\n",
+			"log",
+			"}",
+			"{",
+			"\\{\\s*$",
+			" ",
+			"());*/",
+			".*VideoPlayer.*\\:.*https?.*",
+			"//",
+			"startKitten",
+			"stopKitten",
+			"\"",
+			"ena",
+			"is",
+			"\"",
+			"^ ",
+			" ",
+			"^\\s",
+			"/******/",
+			".*VideoPlayer.*\\:.*https?.*",
+			"\\w+ = setInterval\\(function\\(\\) \\{[^j]*, \\d+ \\* 1000\\);(?=\\w+ =)",
+			"^\\w+ = setInterval\\(function\\(\\) \\{[^j]*, \\d \\* 1000\\);",
+			"\\w+ = setInterval\\(function\\(\\) \\{[^j]*, \\d \\* 1000\\);",
+			"^.*\\=.*\\;",
+			".*\\=.*\\;",
+			".*\\=.*;",
+			".*=.*\\;",
+			".*=.*;",
+			"^.*=.*;",
+			"hunta",
+			"hunt",
+			"huntall",
+			"prevent",
+			".*VideoPlayer.*\\:.*https?.*",
+			".*ResolveURL.*\\:.*https?.*",
+			".*ᴿesolveURL.*\\:.+https?.*",
+			"\\:.+https?.*",
+			"^.*$",
+			"https://streamango.com/f/qqssbpkbttccpsmm/fdrdgdfd_6_mp4: Real Debrid Error: hoster_not_free (503)",
+			"\\:.+https?.*",
+			"Link\\:.+https?.*",
+			"\\:.+https?.*",
+			"Link\\:.+https?.*",
+			"Link: https://streamango.com/f/qqssbpkbttccpsmm/fdrdgdfd_6_mp4: Real Debrid Error: hoster_not_free (503",
+			"Link\\:.+https?.*",
+			"Link: http://uploaded.net/file/jzi5ghvt/TwistysHard.Alina.Lopez.4.March.2018.1080p.MP4: Real Debrid Error: hoster_not_free (503",
+			"Link\\:.+https?.*",
+			"Lik\\:.+https?.*",
+			"k:\\s+https?.*",
+			": https?.*",
+			"k: https?.*",
+			": https?.*",
+			"https?.*",
+			"https?.*$",
+			"https.*$",
+			"https://www.eporner.com/dload/Sns6p5jt8mo/720/1485494-720p.mp4",
+			"https.*$",
+			"https://www.eporner.com/dload/JfqKpWMJl0e/1080/1464576-1080p.mp4",
+			"https.*$",
+			"htts.*$",
+			"httz.*$",
+			"^\\-\\s+",
+			"^",
+			"//",
+			"own",
+			"(href=\")(/playlist\\?\\w{1,5}\\=.*)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n{",
+			"unsafeWindow.stopKitten",
+			"",
+			"- ",
+			"\\1youtube.com\\2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Alistair1231/AppData/Roaming/Kodi/kodi.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 424324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tabs_extra_last_activated": 1520402766.69,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"tabs_extra_sticky": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 113547.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/!!Downloads/!3BackupHandy/!!sync/kittens",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20936,
+								20936
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tabs_extra_last_activated": 1520430198.21,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"tabs_extra_sticky": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3284.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "kittens.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"tabs_extra_last_activated": 1520430256.79,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "kittens.user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tabs_extra_last_activated": 1520430257.55,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 152.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 152.0
+	},
+	"pinned_build_system": "",
+	"project": "KittensUserscript.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
