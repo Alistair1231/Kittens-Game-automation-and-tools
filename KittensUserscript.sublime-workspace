@@ -196,24 +196,6 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Alistair1231/AppData/Roaming/Kodi/kodi.log",
-			"settings":
-			{
-				"buffer_size": 424324,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/!!Downloads/!3BackupHandy/!!sync/kittens",
-			"settings":
-			{
-				"buffer_size": 20936,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "kittens.js",
 			"settings":
 			{
@@ -618,6 +600,7 @@
 	},
 	"expanded_folders":
 	[
+		"/D/!!Downloads/!3BackupHandy/!!sync/!!Kitten/FORK/kitten-game"
 	],
 	"file_history":
 	[
@@ -878,75 +861,11 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Alistair1231/AppData/Roaming/Kodi/kodi.log",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 424324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tabs_extra_last_activated": 1520402766.69,
-							"tabs_extra_last_activated_sheet_index": 0,
-							"tabs_extra_spawned": true,
-							"tabs_extra_sticky": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 113547.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/!!Downloads/!3BackupHandy/!!sync/kittens",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20936,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20936,
-								20936
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tabs_extra_last_activated": 1520430198.21,
-							"tabs_extra_last_activated_sheet_index": 1,
-							"tabs_extra_spawned": true,
-							"tabs_extra_sticky": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3284.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "kittens.js",
 					"semi_transient": false,
 					"settings":
@@ -959,27 +878,27 @@
 						[
 							[
 								0,
-								0
+								5759
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 4,
-							"tabs_extra_last_activated": 1520430256.79,
-							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_last_activated": 1520430277.68,
+							"tabs_extra_last_activated_sheet_index": 0,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 72.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "kittens.user.js",
 					"semi_transient": false,
 					"settings":
@@ -998,7 +917,7 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tabs_extra_last_activated": 1520430257.55,
+							"tabs_extra_last_activated": 1520430268.82,
 							"tabs_extra_last_activated_sheet_index": 3,
 							"tabs_extra_spawned": true
 						},
@@ -1006,7 +925,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

@@ -27,7 +27,7 @@ var bot = (
 	            		zebras=setInterval(function(){gamePage.diplomacy.tradeAll(gamePage.diplomacy.get('zebras'));},10000);	
             		if(arguments[i]==10)
 	            		clearInterval(zebras);	            	
-            	};
+            	}
 
             },
             start:function()
@@ -67,7 +67,7 @@ var bot = (
 		                // clearInterval(autoPray);
 		                // clearInterval(autoObserve);
 
-                    };
+                    }
                 }
 
                 
@@ -133,7 +133,8 @@ var bot = (
 
                 autoPray = setInterval(function() 
                 {
-                    if (faith.value / faith.maxValue > 0.95) 
+                    
+                    if (gamePage.resPool.get('faith').value / gamePage.resPool.get('faith').maxValue > 0.95) 
                     {
                  		this.game.religion.praise();
                     }
@@ -143,7 +144,7 @@ var bot = (
 
             }
 
-        }
+        };
 })();
 
 
