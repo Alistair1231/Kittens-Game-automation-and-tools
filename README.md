@@ -9,6 +9,6 @@
 - **auto observe** auto collection of star charts.  
 
 Install from [here](https://greasyfork.org/en/scripts/39218-kittens-game-automation), If you can't, install [this](http://tampermonkey.net/) first  
-[Github](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) if you want to stay up to date, or if you have recommendations or issues..  
+[Github](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) if you want to stay up to date, or if you have suggestions or issues..  
 
 based off of the code snippets in [this Subreddit](https://redd.it/2eqlt5) and expanded on it
