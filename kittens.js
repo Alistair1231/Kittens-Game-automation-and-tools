@@ -115,6 +115,11 @@ var bot = (
 )();
 
 
+save= setTimeout(function(){
+    gamePage.autosaveFrequency = 20;
+gamePage.ticksBeforeSave=1;
+},1000);
+
 function copyToClipboard(element) {
   var $temp = $("<input>");
   $("body").append($temp);
