@@ -1,5 +1,5 @@
 # Kittens-Game-automation-and-tools  
-**Apart from trading and parchment, manuscript, ... automation everything is handled by the start button (the other ones have their own buttons) so if you want to temporarily want todisable them just hit save and reload**  
+**Apart from trading and parchment, manuscript, ... automation everything is handled by the start button (the other ones have their own buttons) so if you want to temporarily disable them just hit save and reload**  
 - **auto pray** clicks pray when faith full
 - **auto workshop** craft resources when full
   - only when > 95% full and doesn't craft all so you have always some available
