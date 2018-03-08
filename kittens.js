@@ -1,8 +1,6 @@
 var bot = (
     function() 
     {
-        gamePage.autosaveFrequency = 20;
-        gamePage.ticksBeforeSave=1;
         return{
             export:function()
             {
