@@ -21,14 +21,12 @@ var bot = (
             },
             trade:function()
             {
-            	console.log('zebras:1/10');
-            	for (var i = arguments.length - 1; i >= 0; i--) {
-            		if(arguments[i]==1)
-	            		zebras=setInterval(function(){gamePage.diplomacy.tradeAll(gamePage.diplomacy.get('zebras'));},10000);	
-            		if(arguments[i]==10)
-	            		clearInterval(zebras);	            	
-            	}
-
+            	trade=setInterval(function(){            	
+                    if(gamePage.resPool.get('uranium').value < 5)
+                        gamePage.diplomacy.tradeAll(gamePage.diplomacy.get('dragons'));
+                    else
+	            		gamePage.diplomacy.tradeAll(gamePage.diplomacy.get('zebras'));
+                    },10000);
             },
             start:function()
             {
