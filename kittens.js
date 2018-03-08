@@ -39,7 +39,7 @@ var bot = (
                     {
                         if(arguments[i]==30)
                         	clearInterval(compedium);
-                        if(arguments[i]==3 && gamePage.workshop.getCraft('compendium').unlocked)
+                        if(arguments[i]==3 && gamePage.workshop.getCraft('compedium').unlocked)
                             compedium = setInterval(function(){gamePage.craftAll('compedium');},length);
                         
                         if(arguments[i]==20)
