@@ -1,4 +1,4 @@
-gamePage.autosaveFrequency = 50;
+gamePage.autosaveFrequency = 20;
 var bot = (
     function() 
     {
