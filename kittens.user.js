@@ -2,13 +2,13 @@
 // @name         Kittens Game Automation
 // @namespace    https://github.com/Alistair1231/Kittens-Game-automation-and-tools
 // @version      0.1.2
-// @description  Auto craft resources when full, auto pray, auto hunt || next to start: 1,2,3 and 4 stand for parchment, manuscript,...autocrafting the rest of the resources auto craft when > 95% full || trade button enables auto trade with zebras || export makes savegame export and copies code to clipboard || off buttons might be broken, if so just reload... || based off of https://redd.it/2eqlt5
+// @description  Auto craft resources when full, auto pray, auto hunt, simple save export/import... more to come!
 // @author       Alistair1231
 // @match        http*://bloodrizer.ru/games/kittens/*
 // @grant        none
 // ==/UserScript==
 
-$('<script src="https://raw.githack.com/Alistair1231/Kittens-Game-automation-and-tools/master/kittens.js"></script>').insertBefore("div[id*='gamePageContainer']");
+$('<script src="https://raw.githack.com/Alistair1231/Kittens-Game-automation-and-tools/a34786d/kittens.js"></script>').insertBefore("div[id*='gamePageContainer']");
 
 
 $( "<a href='#' onclick='bot.trade(1)'>Trade</a><span> | </span>" ).insertBefore("a[onclick*='gamePage.ui.hideChat();']");
