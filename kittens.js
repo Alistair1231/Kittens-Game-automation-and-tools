@@ -1,8 +1,8 @@
-gamePage.autosaveFrequency = 20;
 var bot = (
     function() 
     {
-        
+        gamePage.autosaveFrequency = 20;
+        gamePage.ticksBeforeSave=1;
         return{
             export:function()
             {
@@ -31,6 +31,7 @@ var bot = (
             },
             start:function()
             {
+
                 if(arguments.length>=1)
                 {
                     var length = 15000;
