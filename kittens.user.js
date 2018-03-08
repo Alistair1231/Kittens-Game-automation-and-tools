@@ -2,7 +2,7 @@
 // @name         Kittens Game Automation
 // @namespace    https://github.com/Alistair1231/Kittens-Game-automation-and-tools
 // @version      0.1.3
-// @description  Auto craft resources when full, auto pray, auto hunt, simple save export/import... more to come!
+// @description  Auto craft resources when full, auto pray, auto hunt, simple save export/import, ...
 // @author       Alistair1231
 // @match        http*://bloodrizer.ru/games/kittens/*
 // @grant        none
