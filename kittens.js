@@ -79,7 +79,8 @@ var bot = (
                         ["wood", "beam"],
                         ["minerals", "slab"],
                         ["coal", "steel"],
-                        ["iron", "plate"]
+                        ["iron", "plate"],
+                        ["titanium","alloy"]
                     ];
 
                     for (var i = 0; i < resources.length; i++) 
