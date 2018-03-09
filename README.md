@@ -11,4 +11,21 @@
 Install from [here](https://greasyfork.org/en/scripts/39218-kittens-game-automation), If you can't, install [this](http://tampermonkey.net/) first  
 [Github](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) if you want to stay up to date, or if you have suggestions or issues..  
 
-based off of the code snippets in [this Subreddit](https://redd.it/2eqlt5) and expanded on it
+based off of the code snippets in [this Subreddit](https://redd.it/2eqlt5) and expanded on it  
+  
+### Changelog  
+```
+- hopefully fix off button  
+- removed off bittons for now and changed craft 50 to 5 times craft 10, so that you can autocraft steel early game  
+- added basic import function  
+- fixed auto pray  
+- fixed prraying... v2  
+- uranium trade added  
+- reworked functions, autosave, unlocked  
+- start isn't use by itself anymore so removed it  
+- autosave delay 20  
+- fixed save  
+- trading fixed for less than 250 titan and less than 5 uranium  
+- added auto titanium to alloy conversion  
+- added concrete crafting while slab between 120000 and 90000  
+```
