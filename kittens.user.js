@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-$('<script src="https://raw.githack.com/Alistair1231/Kittens-Game-automation-and-tools/51a8f0b/kittens.js"></script>').insertBefore("div[id*='gamePageContainer']");
+$('<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/2a14330/kittens.js"></script>').insertBefore("div[id*='gamePageContainer']");
 
 
 $("<a href='#' onclick='bot.trade(1)'>Trade</a><span> | </span>").insertBefore("a[onclick*='gamePage.ui.hideChat();']");
