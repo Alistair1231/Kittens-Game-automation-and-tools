@@ -96,6 +96,9 @@ var bot = (
                             gamePage.craft(resources[i][1],10);
                         }
                     }
+                    if(gamePage.resPool.get('slab').value > 120000 && gamePage.resPool.get('concrate').unlocked)
+                        while(gamePage.resPool.get('slab').value > 90000)
+                            gamePage.craft('concrate',1);
                 }, 2 * 1000);
             },
             pray:function()
