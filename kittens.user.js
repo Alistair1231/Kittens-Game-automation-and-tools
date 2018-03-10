@@ -6,6 +6,7 @@
 // @author       Alistair1231
 // @match        http*://bloodrizer.ru/games/kittens/*
 // @grant        none
+// @license      GPL-3.0+ - http://www.gnu.org/licenses/gpl-3.0.txt
 // ==/UserScript==
 
 $('<script src="https://raw.githack.com/Alistair1231/Kittens-Game-automation-and-tools/876ba42/kittens.js"></script>').insertBefore("div[id*='gamePageContainer']");
