@@ -10,7 +10,7 @@
 - **auto observe** auto collection of star charts.  
 - **autosave** autosave delay set from 400 ticks (I think totally forgot, pretty long though), to 20 ticks (like 3 seconds)
 
-Install from [here](https://greasyfork.org/en/scripts/39218-kittens-game-automation) or [here](https://openuserjs.org/scripts/Alistair1231/Kittens_Game_Automation), If you can't, install [this](http://tampermonkey.net/) first  
+Install from [here](https://greasyfork.org/en/scripts/39218-kittens-game-automation), If you can't, install [this](http://tampermonkey.net/) first  
 [Github](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) if you want to stay up to date, or if you have suggestions or issues..  
 
 originally based off of the code snippets in [this](https://redd.it/2eqlt5) Reddit Thread    
