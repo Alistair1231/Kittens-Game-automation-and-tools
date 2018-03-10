@@ -10,6 +10,11 @@
 // @copyright 2018, Alistair1231 (https://openuserjs.org/users/Alistair1231)
 // ==/UserScript==
 
+// ==OpenUserJS==
+// @author Alistair1231
+// ==/OpenUserJS==
+
+
 $('<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/876ba42/kittens.js"></script>').insertBefore("div[id*='gamePageContainer']");
 
 $("<a href='#' onclick='bot.trade(1)'>Trade</a><span> | </span>").insertBefore("a[onclick*='gamePage.ui.hideChat();']");
