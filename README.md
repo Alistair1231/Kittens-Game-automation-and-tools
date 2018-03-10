@@ -30,4 +30,5 @@ originally based off of the code snippets in [this](https://redd.it/2eqlt5) Redd
 - trading fixed for less than 250 titan and less than 5 uranium  
 - added auto titanium to alloy conversion  
 - added concrete crafting while slab between 120000 and 90000  
+- concrete crafting freezes page every time removed it for now...
 ```
