@@ -80,7 +80,7 @@ var bot = (
                         ["minerals", "slab"],
                         ["coal", "steel"],
                         ["iron", "plate"],
-                        ["titanium","alloy"]
+                        
                     ];
 
                     for (var i = 0; i < resources.length; i++) 
@@ -98,7 +98,7 @@ var bot = (
                     }
               /*      if(gamePage.resPool.get('slab').value > 120000 && gamePage.resPool.get('concrate').unlocked)
 		    {
-			    while(gamePage.resPool.get('slab').value > 90000)
+			    while(gamePage.resPool.get(' lab').value > 90000)
 			    {
                             	gamePage.craft('concrate',1);
 			    }
@@ -121,6 +121,10 @@ var bot = (
     }       
 )();
 
+
+observe= setTimeout(function(){
+    gamePage.calendar.observeBtn.click();
+},1000);
 
 save= setTimeout(function(){
     gamePage.autosaveFrequency = 20;
