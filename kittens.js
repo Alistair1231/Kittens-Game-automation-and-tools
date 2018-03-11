@@ -122,8 +122,9 @@ var bot = (
 )();
 
 
-observe= setTimeout(function(){
-    gamePage.calendar.observeBtn.click();
+observe= setInterval(function(){
+    if(gamePage.calendar.observeBtn)
+        gamePage.calendar.observeBtn.click();
 },1000);
 
 save= setTimeout(function(){
