@@ -15,7 +15,7 @@
 // ==/OpenUserJS==
 
 
-$('<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/9fd6e4c/kittens.js"></script>').insertBefore("div[id*='gamePageContainer']");
+$('<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/09e5004/kittens.js"></script>').insertBefore("div[id*='gamePageContainer']");
 
 $("<a href='#' onclick='bot.trade(1)'>Trade</a><span> | </span>").insertBefore("a[onclick*='gamePage.ui.hideChat();']");
 $("<a href='#' onclick='bot.start(1)'>1</a><span> </span><a href='#' onclick='bot.start(2)'>2</a><span> </span><a href='#' onclick='bot.start(3)'>3</a><span> </span><a href='#' onclick='bot.start(4)'>4</a><span> | </span><span> </span><a href='#' onclick='bot.pray()'>Pray</a><span> | </span><span> </span><a href='#' onclick='bot.craft()'>Craft</a><span> | </span><span> </span><a href='#' onclick='bot.hunt()'>Hunt</a><span> | </span>").insertBefore("a[onclick*='bot.trade(1)']");
