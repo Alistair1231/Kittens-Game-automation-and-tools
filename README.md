@@ -2,7 +2,7 @@
 - **auto pray** clicks pray when faith full  
 - **auto workshop** craft resources when full  
   - only when > 95% full and doesn't craft all so you have always some available  
-  	- now also concrete crafting while 90000 < slab < 120000 and alloy if titanium full  
+  	- now also concrete crafting while 90000 < slab < 120000 and alloy if titanium & steel   
 - **auto hunt** when catpower full  
   - 1,2,3 and 4 stand for parchment, manuscript, compendium, blueprint  
 - **auto trade** trade button enables auto trade with zebras but if uranium amount is < 5, it will trade for that first  
@@ -18,7 +18,8 @@ originally based off of the code snippets in [this](https://redd.it/2eqlt5) Redd
 ### Changelog  
 ```
 - hopefully fix off button  
-- removed off bittons for now and changed craft 50 to 5 times craft 10, so that you can autocraft steel early game  
+- removed off bittons for now and changed craft  
+  50 to 5 times craft 10, so that you can autocraft steel early game  
 - added basic import function  
 - fixed auto pray  
 - fixed prraying... v2  
@@ -30,5 +31,10 @@ originally based off of the code snippets in [this](https://redd.it/2eqlt5) Redd
 - trading fixed for less than 250 titan and less than 5 uranium  
 - added auto titanium to alloy conversion  
 - added concrete crafting while slab between 120000 and 90000  
-- concrete crafting freezes page every time removed it for now...
+- concrete crafting freezes page every time removed it for now...  
+- readded concrete, tweaked alloy`so that it only crafts  
+  when titanium >0.95 full, while also steel amount >  0.1 * maxCoal  
+  so that there is always steel available  
+- reworked kittens.js so that it now is a class, bc of that  
+  now clearInterval does what it's supposed to, so readded stop button
 ```
