@@ -1,5 +1,6 @@
 class kittenBot
 {
+    var observe,save;
     constructor()
     {        
         observe= setInterval(function(){
