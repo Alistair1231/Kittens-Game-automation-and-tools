@@ -1,9 +1,9 @@
-let bot;
+var observe, autoTrade, compedium, manuscript, parchment, blueprint, autoHunt, autoCraft, autoPray, save;
 class kittenBot
 {
-    var observe,save;
-    constructor()
-    {        
+    init()
+    {     
+
         observe= setInterval(function(){
             if(gamePage.calendar.observeBtn)
                 gamePage.calendar.observeBtn.click();
@@ -22,8 +22,8 @@ class kittenBot
         var text = $("textarea[id*='exportData']").val();
         console.log(text);
         $('#exportDiv').hide();
-		$( "<div class='exported'><span id='exportedVal'>"+text+"</span></div>" ).insertBefore("a[onclick*='bot.export()']").hide();
-		bot.copyToClipboard("#exportedVal");
+		$( "<div class='exported'><span id='exportedVal'>"+text+"</span></div>" ).insertBefore("a[onclick*='bot.exportSave()']").hide();
+		copyToClipboard("#exportedVal");
     }
 
     import() 
@@ -130,15 +130,15 @@ class kittenBot
         }, 10 * 1000);
     }
 
-    copyToClipboard(element) 
-    {
-      var $temp = $("<input>");
-      $("body").append($temp);
-      $temp.val($(element).text()).select();
-      document.execCommand("copy");
-      $temp.remove();
-    }
-
 }          
 
+
+function copyToClipboard(element) 
+{
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+}
 
