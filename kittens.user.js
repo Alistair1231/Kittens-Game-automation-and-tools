@@ -8,13 +8,14 @@
 // @grant        none
 // @license GPL-3.0
 // @copyright 2018, Alistair1231 (https://openuserjs.org/users/Alistair1231)
+// @run-at document-idle
 // ==/UserScript==
 
 // ==OpenUserJS==
 // @author Alistair1231
 // ==/OpenUserJS==
 
-var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/a69eb76/kittens.js"></script>'+
+var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/7024587/kittens.js"></script>'+
 	'<script>let bot = new kittenBot();'+
 	'bot.init();'+
 	'bot.export();</script>';
