@@ -1,3 +1,4 @@
+let bot;
 class kittenBot
 {
     var observe,save;
@@ -12,6 +13,7 @@ class kittenBot
             gamePage.autosaveFrequency = 20;
         gamePage.ticksBeforeSave=1;
         },1000);
+        bot = new kittenBot();        
     }
     export() 
     {
