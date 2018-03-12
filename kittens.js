@@ -1,3 +1,4 @@
+let bot;
 var observe, autoTrade, compedium, manuscript, parchment, blueprint, autoHunt, autoCraft, autoPray, save;
 class kittenBot
 {
