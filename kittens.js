@@ -73,6 +73,12 @@ class kittenBot
             }
         }
     }
+    stop()
+    {
+        var intervals=[autoTrade ,compedium ,manuscript ,parchment ,blueprint ,autoHunt ,autoCraft ,autoPray];
+        for(var i= intervals.length-1;i>=0;i--)
+           clearInterval(intervals[i]);
+    }
 
     hunt()
     {
