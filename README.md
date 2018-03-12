@@ -15,26 +15,26 @@ Install from [here](https://greasyfork.org/en/scripts/39218-kittens-game-automat
 
 originally based off of the code snippets in [this](https://redd.it/2eqlt5) Reddit Thread    
   
-### Changelog  
+### Changelog (new to old)  
 ```
-- hopefully fix off button  
-- removed off bittons for now and changed craft  
-  50 to 5 times craft 10, so that you can autocraft steel early game  
-- added basic import function  
-- fixed auto pray  
-- fixed prraying... v2  
-- uranium trade added  
-- reworked functions, autosave, unlocked  
-- start isn't use by itself anymore so removed it  
-- autosave delay 20  
-- fixed save  
-- trading fixed for less than 250 titan and less than 5 uranium  
-- added auto titanium to alloy conversion  
-- added concrete crafting while slab between 120000 and 90000  
-- concrete crafting freezes page every time removed it for now...  
+- reworked kittens.js so that it now is a class, bc of that  
+  now clearInterval does what it's supposed to, so readded stop button
 - readded concrete, tweaked alloy`so that it only crafts  
   when titanium >0.95 full, while also steel amount >  0.1 * maxCoal  
   so that there is always steel available  
-- reworked kittens.js so that it now is a class, bc of that  
-  now clearInterval does what it's supposed to, so readded stop button
+- concrete crafting freezes page every time removed it for now...  
+- added concrete crafting while slab between 120000 and 90000  
+- added auto titanium to alloy conversion  
+- trading fixed for less than 250 titan and less than 5 uranium  
+- fixed save  
+- autosave delay 20  
+- start isn't use by itself anymore so removed it  
+- reworked functions, autosave, unlocked  
+- uranium trade added  
+- fixed prraying... v2  
+- fixed auto pray  
+- added basic import function  
+- removed off bittons for now and changed craft  
+  50 to 5 times craft 10, so that you can autocraft steel early game
+- hopefully fix off button    
 ```
