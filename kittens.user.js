@@ -26,7 +26,7 @@ var ln2="<a href='#' onclick='bot.start(1)'>1</a><span> </span><a href='#' oncli
 	"<a href='#' onclick='bot.craft()'>Craft</a><span> | </span><span> </span>"+
 	"<a href='#' onclick='bot.hunt()'>Hunt</a><span> | </span>";
 var ln3="<a href='#' onclick='bot.exportSave()'>Export</a><span> </span><a href='#' onclick='bot.importSave()'>Import</a>"+
-	"<span> | </span>";
+	"<span> </span><a href='#' onclick='bot.stop()'>Stop</a><span> | </span>";
 
 $(script).insertBefore("div[id*='gamePageContainer']");
 setTimeout(function(){
