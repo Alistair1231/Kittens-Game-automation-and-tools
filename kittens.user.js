@@ -15,8 +15,8 @@
 // @author Alistair1231
 // ==/OpenUserJS==
 
-var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/7024587/kittens.js"></script>'+
-	'<script>let bot = new kittenBot();'+
+var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/9715702/kittens.js"></script>';
+var script2='<script>let bot = new kittenBot();'+
 	'bot.init();'+
 	'bot.export();</script>';
 var ln1="<a href='#' onclick='bot.trade(1)'>Trade</a><span> | </span>";
@@ -29,6 +29,9 @@ var ln3="<a href='#' onclick='bot.exportSave()'>Export</a><span> </span><a href=
 	"<span> | </span>";
 
 $(script).insertBefore("div[id*='gamePageContainer']");
+setTimeout(function(){
+	$(script2).insertBefore("a[onclick*='gamePage.ui.hideChat();']");
+	},2000);
 $(ln1).insertBefore("a[onclick*='gamePage.ui.hideChat();']");
 $(ln2).insertBefore("a[onclick*='bot.trade(1)']");
 $(ln3).insertBefore("a[onclick*='bot.start(1)']");
