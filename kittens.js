@@ -96,14 +96,13 @@ var bot = (
                             gamePage.craft(resources[i][1],10);
                         }
                     }
-              /*      if(gamePage.resPool.get('slab').value > 120000 && gamePage.resPool.get('concrate').unlocked)
-		    {
-			    while(gamePage.resPool.get(' lab').value > 90000)
-			    {
-                            	gamePage.craft('concrate',1);
-			    }
-		    }
-                */
+                    if(gamePage.resPool.get('slab').value > 120000 && gamePage.resPool.get('concrate').unlocked)
+                        while(gamePage.resPool.get('slab').value > 90000)
+                            gamePage.craft(gamePage.resPool.get('concrate'),1);
+                    var titan = gamePage.resPool.get('titanium');
+                    var steel = gamePage.resPool.get('steel');
+                    if(titan.value/titan.maxValue>0.95 && steel.value/steel.maxValue>0.95 && gamePage.resPool.get('alloy').unlocked)
+                        gamePage.craft(gamePage.resPool.get('alloy'),10);
 		}, 2 * 1000);
             },
             pray:function()
