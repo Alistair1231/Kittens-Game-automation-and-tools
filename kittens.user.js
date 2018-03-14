@@ -20,13 +20,35 @@ var script2='<script>let bot = new kittenBot();'+
 	'bot.init();'+
 	'bot.export();</script>';
 var ln1="<a href='#' onclick='bot.trade(1)'>Trade</a><span> | </span>";
-var ln2="<form>"+
-    	"<input type='checkbox' name='1' value='1'>1</input><span> </span>"+
-    	"<input type='checkbox' name='2' value='2'>2</input><span> </span>"+
-    	"<input type='checkbox' name='3' value='3'>3</input><span> </span>"+
-    	"<input type='checkbox' name='4' value='4'>4</input><span> </span>"+
-    	""+
-    	"</form>";
+var ln2="<table>"+
+    	"<tr>"+
+	    	"<td>"+
+    			"<input type='checkbox' name='1' value='1'>1</input><span> </span>"+
+	    	"</td>"+
+	    	"<td>"+
+				"<a href='#' onclick='bot.run()'>Run</a>"+
+	    	"</td>"+
+    	"</tr>"+
+    	"<tr>"+
+    		"<td>"+
+    			"<input type='checkbox' name='2' value='2'>2</input><span> </span>"+
+    		"</td>"+
+	    	"<td>"+
+				"<a href='#' onclick='bot.stop()'>Stop</a>"+
+	    	"</td>"+
+    	"</tr>"+
+    	"<tr>"+
+    		"<td>"+
+    			"<input type='checkbox' name='3' value='3'>3</input><span> </span>"+
+    		"</td>"+
+    	"</tr>"+
+    	"<tr>"+
+    		"<td>"+
+    			"<input type='checkbox' name='4' value='4'>4</input><span> </span>"+
+    		"</td>"+
+    	"</tr>"+
+    	"</table>"+
+    	;
 /*var ln2="<a href='#' onclick='bot.start(1)'>1</a><span> </span><a href='#' onclick='bot.start(2)'>2</a><span> </span>"+
 	"<a href='#' onclick='bot.start(3)'>3</a><span> </span><a href='#' onclick='bot.start(4)'>4</a><br><span> | </span>"+
 	"<span> </span><a href='#' onclick='bot.pray()'>Pray</a><span> </span><span> </span>"+
