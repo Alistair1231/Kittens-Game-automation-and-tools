@@ -16,7 +16,7 @@ class kittenBot
         },1000);
         bot = new kittenBot();        
     }
-    export() 
+    exportSave() 
     {
     	$(".exported").remove();
         gamePage.saveExport();
@@ -27,7 +27,7 @@ class kittenBot
 		copyToClipboard("#exportedVal");
     }
 
-    import() 
+    importSave() 
     {
     	$('#importDiv').show();
     	$("#importData").select();		
