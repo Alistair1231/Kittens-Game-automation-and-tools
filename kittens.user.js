@@ -68,17 +68,9 @@ var ln1="<br>"+
 	    	"</tr>"+
 	    	"</table>"+
 	    "</div>";
-var ln2="<a href='#' onclick='bot.exportSave()'>Export</a>"+
-		"<span> </span>"+
-		"<a href='#' onclick='bot.importSave()'>Import</a>"+
-		"<span> </span>"+
-		"<a href='#' onclick='bot.stop()'>Stop</a>"+
-		"<br>"+
-		"<span> | </span>";
 
 $(script).insertBefore("div[id*='gamePageContainer']");
 setTimeout(function(){
 	$(script2).insertBefore("a[onclick*='gamePage.ui.hideChat();']");
 	},2000);
 $(ln1).insertBefore("a[onclick*='gamePage.ui.hideChat();']");
-$(ln2).insertBefore("div[id*='tableBot']");
