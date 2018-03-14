@@ -16,6 +16,25 @@ class kittenBot
         },1000);
         bot = new kittenBot();        
     }
+    run()
+    {
+    	var checkboxes=
+    	[
+    		["1",False,bot.start(1)],
+    		["pray",False,bot.pray()],
+    		["2",False,bot.start(2)],
+    		["hunt",False,bot.hunt()],
+    		["3",False,bot.start(3)],
+    		["craft",False,bot.craft()],
+    		["4",False,bot.start(4)],    	
+    	];
+    	for (var i = checkboxes.length - 1; i >= 0; i--) 					//Read state of checkboxes
+    		checkboxes[i][1]=$("input[name*="+checkboxes[i][0]+"]").checked;
+    	for (var i = checkboxes.length - 1; i >= 0; i--) {					//run corresponding scripts
+    		if(checkboxes[i][1])
+
+    	}
+    }
     export() 
     {
     	$(".exported").remove();
@@ -148,4 +167,3 @@ function copyToClipboard(element)
     document.execCommand("copy");
     $temp.remove();
 }
-
