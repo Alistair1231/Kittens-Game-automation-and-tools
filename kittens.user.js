@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kittens Game Automation
 // @namespace    https://github.com/Alistair1231/Kittens-Game-automation-and-tools
-// @version      0.3.0
+// @version      1.0.0
 // @description  Auto craft resources when full, auto pray, auto hunt, auto trade, fast autosave, simple save export/import, ...
 // @author       Alistair1231
 // @match        http*://bloodrizer.ru/games/kittens/*
@@ -19,15 +19,19 @@ var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-au
 var script2='<script>let bot = new kittenBot();'+
 	'bot.init();'+
 	'bot.export();</script>';
-var ln1="<br>"+
-		"<div id='tableBot'>"+
+var ln1="<style>"+
+			".tableBox {"+
+			"display: block !important;}"+
+		"</style>"+
+		"<br>"+
+		"<form id='tableBot'>"+
 			"<table>"+
 	    	"<tr>"+
 		    	"<td>"+
-	    			"<input type='checkbox' name='1' value='1'>1</input>"+
+	    			"<input type='checkbox' class='tableBox' name='1' value='1' checked>1</input>"+
 		    	"</td>"+
 		    	"<td>"+
-					"<input type='checkbox' name='pray' value='pray'>Pray</input>"+
+					"<input type='checkbox' class='tableBox'  name='pray' value='pray' checked>Pray</input>"+
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.run()'>Run</a>"+
@@ -35,10 +39,10 @@ var ln1="<br>"+
 	    	"</tr>"+
 	    	"<tr>"+
 	    		"<td>"+
-	    			"<input type='checkbox' name='2' value='2'>2</input>"+
+	    			"<input type='checkbox' class='tableBox'  name='2' value='2' checked>2</input>"+
 	    		"</td>"+
 		    	"<td>"+
-					"<input type='checkbox' name='hunt' value='hunt'>Hunt</input><span> </span>"+
+					"<input type='checkbox' class='tableBox'  name='hunt' value='hunt' checked>Hunt</input><span> </span>"+
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.stop()'>Stop</a>"+
@@ -46,28 +50,28 @@ var ln1="<br>"+
 	    	"</tr>"+
 	    	"<tr>"+
 	    		"<td>"+
-	    			"<input type='checkbox' name='3' value='3'>3</input>"+
+	    			"<input type='checkbox' class='tableBox' name='3' value='3'>3</input>"+
 	    		"</td>"+
 		    	"<td>"+
-					"<input type='checkbox' name='craft' value='craft'>Craft</input><span> </span>"+
+					"<input type='checkbox' class='tableBox' name='craft' value='craft' checked>Craft</input><span> </span>"+
 		    	"</td>"+
 		    	"<td>"+
-					"<a href='#' onclick='bot.exportSave()'>Export</a>"+
+					"<a href='#' onclick='bot.export()'>Export</a>"+
 		    	"</td>"+
 	    	"</tr>"+
 	    	"<tr>"+
 	    		"<td>"+
-	    			"<input type='checkbox' name='4' value='4'>4</input>"+
+	    			"<input type='checkbox' class='tableBox' name='4' value='4'>4</input>"+
 	    		"</td>"+
 		    	"<td>"+
 					"<span> </span>"+
 		    	"</td>"+
 		    	"<td>"+
-					"<a href='#' onclick='bot.importSave()'>Import</a>"+
+					"<a href='#' onclick='bot.import()'>Import</a>"+
 		    	"</td>"+
 	    	"</tr>"+
 	    	"</table>"+
-	    "</div>";
+	    "</form>";
 
 $(script).insertBefore("div[id*='gamePageContainer']");
 setTimeout(function(){
