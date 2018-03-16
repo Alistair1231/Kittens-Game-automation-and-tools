@@ -20,20 +20,27 @@ class kittenBot
     {
     	var checkboxes=
     	[
-    		["1",False,bot.start(1)],
-    		["pray",False,bot.pray()],
-    		["2",False,bot.start(2)],
-    		["hunt",False,bot.hunt()],
-    		["3",False,bot.start(3)],
-    		["craft",False,bot.craft()],
-    		["4",False,bot.start(4)],    	
+            //$("input[name*='2']")[0].checked
+            // bot['export']() == bot.export()
+            // isFinite('a') == false
+            // isFinite(parseInt("1")) == true
+    		["1",false,"start"], //bot['start']('1')
+    		["pray",false,"pray"],
+    		["2",false,"start"],
+    		["hunt",false,"hunt"],
+    		["3",false,"start"],
+    		["craft",false,"craft"],
+    		["4",false,"start"],    	
     	];
     	for (var i = checkboxes.length - 1; i >= 0; i--) 					//Read state of checkboxes
-    		checkboxes[i][1]=$("input[name*="+checkboxes[i][0]+"]").checked;
-    	for (var i = checkboxes.length - 1; i >= 0; i--) {					//run corresponding scripts
+    		checkboxes[i][1]=$("input[name*="+checkboxes[i][0]+"]")[0].checked;
+    	for (var i = checkboxes.length - 1; i >= 0; i--)					//run corresponding scripts
     		if(checkboxes[i][1])
+                if(isFinite(parseInt(checkboxes[i][0])))    //if checkbox 1,2,3 or 4 bc then attributes are needed
+                    bot[checkboxes[i][2]](parseInt(checkboxes[i][0]));    //e.g. bot['start']('1') == bot.start(1)
+                else
+                    bot[checkboxes[i][2]]();    //e.g. bot.pray()
 
-    	}
     }
     export() 
     {
@@ -65,7 +72,7 @@ class kittenBot
     {
         if(arguments.length>=1)
         {
-            var length = 15000;
+            var length = 5000;
             for (var i = arguments.length - 1; i >= 0; i--) 
             {
                 if(arguments[i]==30)
