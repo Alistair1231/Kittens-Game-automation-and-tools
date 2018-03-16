@@ -16,7 +16,33 @@ class kittenBot
         },1000);
         bot = new kittenBot();        
     }
-    exportSave() 
+    run()
+    {
+    	var checkboxes=
+    	[
+            //$("input[name*='2']")[0].checked
+            // bot['export']() == bot.export()
+            // isFinite('a') == false
+            // isFinite(parseInt("1")) == true
+    		["1",false,"start"], //bot['start']('1')
+    		["pray",false,"pray"],
+    		["2",false,"start"],
+    		["hunt",false,"hunt"],
+    		["3",false,"start"],
+    		["craft",false,"craft"],
+    		["4",false,"start"],    	
+    	];
+    	for (var i = checkboxes.length - 1; i >= 0; i--) 					//Read state of checkboxes
+    		checkboxes[i][1]=$("input[name*="+checkboxes[i][0]+"]")[0].checked;
+    	for (var i = checkboxes.length - 1; i >= 0; i--)					//run corresponding scripts
+    		if(checkboxes[i][1])
+                if(isFinite(parseInt(checkboxes[i][0])))    //if checkbox 1,2,3 or 4 bc then attributes are needed
+                    bot[checkboxes[i][2]](parseInt(checkboxes[i][0]));    //e.g. bot['start']('1') == bot.start(1)
+                else
+                    bot[checkboxes[i][2]]();    //e.g. bot.pray()
+
+    }
+    export() 
     {
     	$(".exported").remove();
         gamePage.saveExport();
@@ -27,7 +53,7 @@ class kittenBot
 		copyToClipboard("#exportedVal");
     }
 
-    importSave() 
+    import() 
     {
     	$('#importDiv').show();
     	$("#importData").select();		
@@ -46,7 +72,7 @@ class kittenBot
     {
         if(arguments.length>=1)
         {
-            var length = 15000;
+            var length = 5000;
             for (var i = arguments.length - 1; i >= 0; i--) 
             {
                 if(arguments[i]==30)
@@ -119,12 +145,12 @@ class kittenBot
             }
             if(gamePage.resPool.get('slab').value > 120000 && gamePage.resPool.get('concrate').unlocked)
                 while(gamePage.resPool.get('slab').value > 90000)
-                    gamePage.craft(gamePage.resPool.get('concrate'),1);
+                     gamePage.craft(gamePage.resPool.get('concrate'),1);
             var titan = gamePage.resPool.get('titanium');
             var steel = gamePage.resPool.get('steel');
             var coal = gamePage.resPool.get('coal');
             if(titan.value/titan.maxValue>0.95 && steel.value/coal.maxValue>0.1 && gamePage.resPool.get('alloy').unlocked)
-                gamePage.craft(gamePage.resPool.get('alloy'),10);
+              gamePage.craft(gamePage.resPool.get('alloy'),10);
         }, 2 * 1000);
     }
         
@@ -148,4 +174,3 @@ function copyToClipboard(element)
     document.execCommand("copy");
     $temp.remove();
 }
-
