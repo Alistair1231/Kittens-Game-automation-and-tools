@@ -1,5 +1,5 @@
 # Kittens-Game-automation-and-tools  
-- **UI** now with completly reworked UI! Also planned is saving the state of the checkboxes in together with the Kittens Game save, for now, some are prechecked.  
+- **UI** now with completly reworked UI! Also planned is saving the state of the checkboxes together with the Kittens Game save. For now, some are prechecked.  
 - **auto pray** clicks pray when faith full  
 - **auto workshop** craft resources when full  
   - only when > 95% full and doesn't craft all so you have always some available  
