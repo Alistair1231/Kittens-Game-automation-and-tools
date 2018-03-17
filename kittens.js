@@ -30,7 +30,8 @@ class kittenBot
     		["hunt",false,"hunt"],
     		["3",false,"start"],
     		["craft",false,"craft"],
-    		["4",false,"start"],    	
+    		["4",false,"start"],
+            ["trade",false,"trade"],    	
     	];
     	for (var i = checkboxes.length - 1; i >= 0; i--) 					//Read state of checkboxes
     		checkboxes[i][1]=$("input[name*="+checkboxes[i][0]+"]")[0].checked;
