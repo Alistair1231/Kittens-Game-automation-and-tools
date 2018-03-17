@@ -64,7 +64,7 @@ var ln1="<style>"+
 	    			"<input type='checkbox' class='tableBox' name='4' value='4'>4</input>"+
 	    		"</td>"+
 		    	"<td>"+
-					"<input type='checkbox' class='tableBox' name='trade' value='trade' checked>Trade</input>"+
+					"<input type='checkbox' class='tableBox' name='trade' value='trade'>Trade</input>"+
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.import()'>Import</a>"+
