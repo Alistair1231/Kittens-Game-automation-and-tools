@@ -15,7 +15,7 @@
 // @author Alistair1231
 // ==/OpenUserJS==
 
-var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/40e725b/kittens.js"></script>';
+var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/4dc0fda/kittens.js"></script>';
 var script2='<script>let bot = new kittenBot();'+
 	'bot.init();'+
 	'bot.export();</script>';
@@ -42,7 +42,11 @@ var ln1="<style>"+
 	    			"<input type='checkbox' class='tableBox'  name='2' value='2' checked>2</input>"+
 	    		"</td>"+
 		    	"<td>"+
+<<<<<<< HEAD
 					"<input type='checkbox' class='tableBox'  name='hunt' value='hunt' checked>Hunt</input><span> </span>"+
+=======
+					"<input type='checkbox' class='tableBox'  name='hunt' value='hunt' checked>Hunt</input>"+
+>>>>>>> dev
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.stop()'>Stop</a>"+
@@ -53,7 +57,11 @@ var ln1="<style>"+
 	    			"<input type='checkbox' class='tableBox' name='3' value='3'>3</input>"+
 	    		"</td>"+
 		    	"<td>"+
+<<<<<<< HEAD
 					"<input type='checkbox' class='tableBox' name='craft' value='craft' checked>Craft</input><span> </span>"+
+=======
+					"<input type='checkbox' class='tableBox' name='craft' value='craft' checked>Craft</input>"+
+>>>>>>> dev
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.export()'>Export</a>"+
@@ -64,7 +72,11 @@ var ln1="<style>"+
 	    			"<input type='checkbox' class='tableBox' name='4' value='4'>4</input>"+
 	    		"</td>"+
 		    	"<td>"+
+<<<<<<< HEAD
 					"<span> </span>"+
+=======
+					"<input type='checkbox' class='tableBox' name='trade' value='trade'>Trade</input>"+
+>>>>>>> dev
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.import()'>Import</a>"+
