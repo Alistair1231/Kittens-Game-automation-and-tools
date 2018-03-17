@@ -42,7 +42,7 @@ var ln1="<style>"+
 	    			"<input type='checkbox' class='tableBox'  name='2' value='2' checked>2</input>"+
 	    		"</td>"+
 		    	"<td>"+
-					"<input type='checkbox' class='tableBox'  name='hunt' value='hunt' checked>Hunt</input><span> </span>"+
+					"<input type='checkbox' class='tableBox'  name='hunt' value='hunt' checked>Hunt</input>"+
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.stop()'>Stop</a>"+
@@ -53,7 +53,7 @@ var ln1="<style>"+
 	    			"<input type='checkbox' class='tableBox' name='3' value='3'>3</input>"+
 	    		"</td>"+
 		    	"<td>"+
-					"<input type='checkbox' class='tableBox' name='craft' value='craft' checked>Craft</input><span> </span>"+
+					"<input type='checkbox' class='tableBox' name='craft' value='craft' checked>Craft</input>"+
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.export()'>Export</a>"+
@@ -64,7 +64,7 @@ var ln1="<style>"+
 	    			"<input type='checkbox' class='tableBox' name='4' value='4'>4</input>"+
 	    		"</td>"+
 		    	"<td>"+
-					"<span> </span>"+
+					"<input type='checkbox' class='tableBox' name='trade' value='trade' checked>Trade</input>"+
 		    	"</td>"+
 		    	"<td>"+
 					"<a href='#' onclick='bot.import()'>Import</a>"+
