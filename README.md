@@ -1,4 +1,15 @@
 # Kittens-Game-automation-and-tools  
+
+> ####Hey there my fellow KG addicts. :D  
+> ####I was pretty annoyed with wasting so much resources and all the grind, so that I at first looked for some scripts to automate some game aspects. 
+> ####I started to use the snippets from [this](https://redd.it/2eqlt5) Reddit thread, but then started to write my own Userscript based on the snippets. The Userscript (kittens.user.js) only handles the UI, the rest is done in kittens.js, which gets injected via the userscript. 
+> ####At this time there is nearly nothing of the code snippets left in my script and I integrated a simple UI: ![screen](https://i.imgur.com/wmIclj9.png)
+>> I use a modified CSS, the script only adds the stuff above the chat button
+> #### Also I added a lot of features.
+> ####I waited before posting the script, so that you get the script with the new UI. Everything *should* work, I use the script daily myself... 
+> ####If somthing is broken or if you want to suggest/request something, feel free to check out the [GitHub](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) page. I usually answer pretty quick. I am no master of JS or anything like that, so if you have suggestions for improvements, just tell me. :) 
+> ####The script is published under GPL, so feel free to modify it, fork it, or whatever, as long as you publish it under GPL as well in the end ([more info](https://choosealicense.com/licenses/gpl-3.0/)) 
+
 - **UI** now with better UI. just check the boxes you want and click run. *Also planned is saving the state of the checkboxes together with the Kittens Game save. For now, some are prechecked.*
 - **auto pray** clicks pray when faith full  
 - **auto workshop** craft resources when full  
@@ -13,7 +24,7 @@
 - **autosave** autosave delay set to 20 ticks (approx 3 seconds)
 
 Install from [here](https://greasyfork.org/en/scripts/39218-kittens-game-automation) or [here](https://openuserjs.org/scripts/Alistair1231/Kittens_Game_Automation), If you can't, install [this](http://tampermonkey.net/) first  
-[Github](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) if you want to stay up to date, or if you have suggestions or issues..  
+[GitHub](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) if you want to stay up to date, or if you have suggestions or issues..  
 
 originally based off of the code snippets in [this](https://redd.it/2eqlt5) Reddit Thread    
   
