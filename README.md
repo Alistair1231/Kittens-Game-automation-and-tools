@@ -9,6 +9,7 @@
 > ####I waited before posting the script, so that you get the script with the new UI. Everything *should* work, I use the script daily myself... 
 > ####If somthing is broken or if you want to suggest/request something, feel free to check out the [GitHub](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) page. I usually answer pretty quick. I am no master of JS or anything like that, so if you have suggestions for improvements, just tell me. :) 
 > ####The script is published under GPL, so feel free to modify it, fork it, or whatever, as long as you publish it under GPL as well in the end ([more info](https://choosealicense.com/licenses/gpl-3.0/)) 
+> #### If some of you just want to use it as a script from the js console, then just say so and I will add a quick usage guide for the functions... 
 
 - **UI** now with better UI. just check the boxes you want and click run. *Also planned is saving the state of the checkboxes together with the Kittens Game save. For now, some are prechecked.*
 - **auto pray** clicks pray when faith full  
