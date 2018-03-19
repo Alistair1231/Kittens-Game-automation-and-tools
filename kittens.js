@@ -63,9 +63,9 @@ class kittenBot
     trade()
     {
     	autoTrade=setInterval(function(){            	
-            if(gamePage.resPool.get('uranium').value < 5 && gamePage.resPool.get('titanium').value >= 250 && gamePage.diplomacy.get('dragons').unlocked)
-                gamePage.diplomacy.tradeAll(gamePage.diplomacy.get('dragons'));
-            else if(gamePage.diplomacy.get('zebras').unlocked)
+     //       if(gamePage.resPool.get('uranium').value < 5 && gamePage.resPool.get('titanium').value >= 250 && gamePage.diplomacy.get('dragons').unlocked)
+       //         gamePage.diplomacy.tradeAll(gamePage.diplomacy.get('dragons'));
+            /*else*/if(gamePage.diplomacy.get('zebras').unlocked)
                 gamePage.diplomacy.tradeAll(gamePage.diplomacy.get('zebras'));
             },10000);
     }

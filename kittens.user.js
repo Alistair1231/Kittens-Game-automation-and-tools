@@ -15,7 +15,7 @@
 // @author Alistair1231
 // ==/OpenUserJS==
 
-var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/4dc0fda/kittens.js"></script>';
+var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/3b4fda1/kittens.js"></script>';
 var script2='<script>let bot = new kittenBot();'+
 	'bot.init();'+
 	'bot.export();</script>';
