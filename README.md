@@ -4,7 +4,8 @@
 > ####I was pretty annoyed with wasting so much resources and all the grind, so that I at first looked for some scripts to automate some game aspects. 
 > ####I started to use the snippets from [this](https://redd.it/2eqlt5) Reddit thread, but then started to write my own Userscript based on the snippets. The Userscript (kittens.user.js) only handles the UI, the rest is done in kittens.js, which gets injected via the userscript. 
 > ####At this time there is nearly nothing of the code snippets left in my script and I integrated a simple UI: ![screen](https://i.imgur.com/wmIclj9.png)
->> I use a modified CSS, the script only adds the stuff above the chat button
+>> I use a modified CSS, the script only adds the stuff above the chat button  
+
 > #### Also I added a lot of features.
 > ####I waited before posting the script, so that you get the script with the new UI. Everything *should* work, I use the script daily myself... 
 > ####If somthing is broken or if you want to suggest/request something, feel free to check out the [GitHub](https://github.com/Alistair1231/Kittens-Game-automation-and-tools) page. I usually answer pretty quick. I am no master of JS or anything like that, so if you have suggestions for improvements, just tell me. :) 
