@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kittens Game Automation
 // @namespace    https://github.com/Alistair1231/Kittens-Game-automation-and-tools
-// @version      1.0.1
+// @version      1.0.2
 // @description  Auto craft resources when full, auto pray, auto hunt, auto trade, fast autosave, simple save export/import, ...
 // @author       Alistair1231
 // @match        http*://bloodrizer.ru/games/kittens/*
@@ -15,7 +15,7 @@
 // @author Alistair1231
 // ==/OpenUserJS==
 
-var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/3b4fda1/kittens.js"></script>';
+var script='<script src="https://rawcdn.githack.com/Alistair1231/Kittens-Game-automation-and-tools/b405c9a/kittens.js"></script>';
 var script2='<script>let bot = new kittenBot();'+
 	'bot.init();'+
 	'bot.export();</script>';
