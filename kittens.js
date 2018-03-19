@@ -1,5 +1,5 @@
 let bot;
-var observe, autoTrade, compedium, manuscript, parchment, blueprint, autoHunt, autoCraft, autoPray, save;
+var observe, autoTrade, compedium, manuscript, parchment, blueprint, autoHunt, autoCraft, autoPray, sa
 class kittenBot
 {
     init()
@@ -102,7 +102,6 @@ class kittenBot
     }
     stop()
     {
-        var intervals=[autoTrade ,compedium ,manuscript ,parchment ,blueprint ,autoHunt ,autoCraft ,autoPray];
         for(var i= intervals.length-1;i>=0;i--)
            clearInterval(intervals[i]);
     }
