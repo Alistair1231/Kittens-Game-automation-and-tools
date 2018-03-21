@@ -19,7 +19,7 @@
   	- now also concrete crafting while 90000 < slab < 120000 and alloy if titanium full and steel amount > 10% of max coal amount   
 - **auto hunt** when catpower full  
   - 1,2,3 and 4 stand for auto crafting of parchment, manuscript, compendium, blueprint  
-- **auto trade** trade button enables auto trade with zebras but if uranium amount is < 5, it will trade for that first  
+- **auto trade** trade button enables auto trade with zebras  
 - **export/import** makes savegame export and _copies code to clipboard_ // import only opens import window and selects the textarea, because I couldn't get pasting to work. but simply ctrl-v tab return return does the trick...  
 - **stop** script uses setInterval for automation, stop button runs clearInterval for everything, apart from observe, so that you don't have to reload the site if you want to stop autoTrade for example.  
 - **auto observe** auto collection of star charts.  
