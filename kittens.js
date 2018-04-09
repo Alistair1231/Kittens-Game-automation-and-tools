@@ -51,7 +51,7 @@ class kittenBot
         var text = $("textarea[id*='exportData']").val();
         console.log(text);
         $('#exportDiv').hide();
-		$( "<div class='exported'><span id='exportedVal'>"+text+"</span></div>" ).insertBefore("a[onclick*='bot.exportSave()']").hide();
+		$( "<div class='exported'><span id='exportedVal'>"+text+"</span></div>" ).insertBefore("a[onclick*='bot.export()']").hide();
 		copyToClipboard("#exportedVal");
     }
 
