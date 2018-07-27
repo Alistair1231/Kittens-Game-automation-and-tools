@@ -50,17 +50,15 @@ class kittenBot
         gamePage.saveExport();
         var text = $("textarea[id*='exportData']").val();
         console.log(text);
+	gamePage.saveExportDropbox();
         $('#exportDiv').hide();
-		$( "<div class='exported'><span id='exportedVal'>"+text+"</span></div>" ).insertBefore("a[onclick*='bot.exportSave()']").hide();
-		copyToClipboard("#exportedVal");
-    }
+	$( "<div class='exported'><span id='exportedVal'>"+text+"</span></div>" ).insertBefore("a[onclick*='bot.exportSave()']").hide();
+	copyToClipboard("#exportedVal");}
 
     import() 
     {
-    	$('#importDiv').show();
-    	$("#importData").select();		
+	    gamePage.saveImportDropbox();
     }
-    
     trade()
     {
     	autoTrade=setInterval(function(){            	
